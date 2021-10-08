@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="417dp"
+        android:layout_height="174dp"
+        android:foregroundGravity="center"
+        app:cardBackgroundColor="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/searchbutton"
+            android:layout_width="39dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="360dp"
+            tools:srcCompat="@drawable/search" />
+
+        <TextView
+            android:id="@+id/titletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:text="Apnapaisa"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/notificationbutton"
+            android:layout_width="41dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            android:src="@drawable/notification"
+            tools:src="@drawable/notification"
+            tools:srcCompat="@drawable/notification" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="-30dp">
+
+            <Button
+                android:id="@+id/signinbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="70dp"
+                android:text="Sign In" />
+
+            <TextView
+                android:id="@+id/numbertext"
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif"
+                android:maxLength="50"
+                android:text="03460912458"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/nametext"
+                android:layout_width="197dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Fahad Khurshid"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/signInMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="85dp"
+                android:text="Sign In to your Apnapaisa account"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/Msgtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send money to anyone in Pakistan instantly"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="94dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="420dp"
+        app:cardBackgroundColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="38dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="25dp"
+            tools:srcCompat="@drawable/easypasa" />
+
+        <TextView
+            android:id="@+id/easypasiatxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp"
+            android:text="Easypaisa"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/easypaisatxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="60dp"
+            android:text="Free"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="118dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="420dp"
+        app:cardBackgroundColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="40dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="35dp"
+            tools:srcCompat="@drawable/bank" />
+
+        <TextView
+            android:id="@+id/banktxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:text="Bank"
+            android:textColor="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/banktxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="55dp"
+            android:text="Free"
+            android:textColor="@color/teal_200"
+            android:textColorLink="@color/teal_200"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="114dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginBottom="420dp"
+        app:cardBackgroundColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="40dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="35dp"
+            tools:srcCompat="@drawable/cnic" />
+
+        <TextView
+            android:id="@+id/cnictxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="30dp"
+            android:text="CNIC"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/easyloadimg"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/easyload" />
+
+    <ImageButton
+        android:id="@+id/packagesimg"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505"
+        tools:srcCompat="@drawable/packages" />
+
+    <ImageButton
+        android:id="@+id/billimg"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="336dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/bill" />
+
+    <TextView
+        android:id="@+id/easypaisatxt"
+        android:layout_width="71dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="300dp"
+        android:text="Easypaisa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/packagestxt"
+        android:layout_width="64dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="300dp"
+        android:text="Packages"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/billtxt"
+        android:layout_width="109dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="296dp"
+        android:text="Bill Payment"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/pwimg"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/peel_win" />
+
+    <ImageButton
+        android:id="@+id/inviteimg"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/invite" />
+
+    <ImageButton
+        android:id="@+id/moreimg"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/more" />
+
+    <TextView
+        android:id="@+id/pwtxt"
+        android:layout_width="77dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="160dp"
+        android:text="P?W"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/invitetxt"
+        android:layout_width="94dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="160dp"
+        android:text="Invite"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/moretxt"
+        android:layout_width="96dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="160dp"
+        android:text="More"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/homeimg"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/scanimg"
+        android:layout_width="52dp"
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="608dp"
+        tools:srcCompat="@drawable/scan" />
+
+    <ImageButton
+        android:id="@+id/accountimg"
+        android:layout_width="52dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="72dp"
+        android:accessibilityLiveRegion="none"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/account" />
+
+    <TextView
+        android:id="@+id/hometxt"
+        android:layout_width="87dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="36dp"
+        android:text="Home"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/scanetxt"
+        android:layout_width="107dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="36dp"
+        android:text="Scan Code"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/accounttxt"
+        android:layout_width="104dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="36dp"
+        android:text="My Account"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
